@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js template
+Template này được sử dụng cho video fullstack Next.js/Nest.js của tác giả Hỏi Dân IT (Eric)
 
-## Getting Started
+### Môi trường chạy dự án: Node.js v20.14.0
+https://nodejs.org/download/release/v20.14.0/
 
-First, run the development server:
+## Về tác giả
+Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Website chính thức: https://hoidanit.vn/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
 
-## Learn More
+Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
 
-To learn more about Next.js, take a look at the following resources:
+===
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Các bước cài đặt: (chế độ development)
+1. clone code
+2. cài đặt thư viện: npm i
+3. Update file .env.development (nếu cần thiết)
+4. Chạy dự án: npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+===
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Cách chạy tại chế độ production:
+1. clone code
+2. cài đặt thư viện: npm i
+3. Update file .env.production (nếu cần thiết)
+4. Build dự án: npm run build
+5. Chạy dự án: npm run preview
